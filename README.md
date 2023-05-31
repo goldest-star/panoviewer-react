@@ -8,8 +8,6 @@ _Special thanks to [Matthew Petroff](https://github.com/mpetroff)_
 
 [npm-badge]: https://img.shields.io/npm/v/pannellum-react.svg
 [npm]: https://www.npmjs.org/package/pannellum-react
-[coveralls-badge]: https://coveralls.io/repos/github/farminf/pannellum-react/badge.svg?branch=master
-[coveralls]: https://coveralls.io/github/farminf/pannellum-react
 
 **Currently there are some problem with React V18**
 
@@ -42,14 +40,6 @@ _Note: By using import Pannellum from "pannellum-react/es/elements/Pannellum" th
 > **Note:** You can also create your tour with custom hotspot, by changing the image dynamically.
 > **Note:** If you manage the props by state, you can update the component smoothly (example: updating yaw, pitch or hfov won't re-render the image and it will dynamically update)
 
-## Demo
-
-https://farminf.github.io/pannellum-react/
-
-you can also use codesandbox playground
-
-[![Edit q27rq5p6](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/q27rq5p6)
-
 ## Simple Example
 
 ```JavaScript
@@ -81,7 +71,7 @@ const PannellumReact = () => (
         pitch={11}
         yaw={-167}
         text="Info Hotspot Text 3"
-        URL="https://github.com/farminf/pannellum-react"
+        URL="https://github.com/goldest-star/pannellum-react"
       />
 
       <Pannellum.Hotspot
@@ -89,7 +79,7 @@ const PannellumReact = () => (
         pitch={31}
         yaw={-107}
         text="Info Hotspot Text 4"
-        URL="https://github.com/farminf/pannellum-react"
+        URL="https://github.com/goldest-star/pannellum-react"
       />
     </Pannellum>
 
@@ -119,7 +109,7 @@ const PannellumReact = () => (
         pitch={31}
         yaw={-57}
         text="Info"
-        URL="https://github.com/farminf"
+        URL="https://github.com/goldest-star"
       />
     </PannellumVideo>
 
@@ -312,7 +302,7 @@ in addition there are also pannellum properties(panorama) which works on video
     pitch={11}
     yaw={-167}
     text="Info Hotspot Text"
-    URL="https://github.com/farminf"
+    URL="https://github.com/goldest-star"
   />
 
   <Pannellum.Hotspot
@@ -326,7 +316,3 @@ in addition there are also pannellum properties(panorama) which works on video
 
 </Pannellum>
 ```
-
-## License
-
-pannellum-react is released under the MIT license.
